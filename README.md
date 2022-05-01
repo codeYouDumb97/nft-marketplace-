@@ -8,7 +8,7 @@ npm install
 #### Deploy the contract to Rinkeby
 
 ```
-npx hardhat run scripts/deploy.js
+npx hardhat run scripts/deploy.js --network rinkeby
 ```
 
 (Make sure to create a .env file which contains all the keys and API urls)
