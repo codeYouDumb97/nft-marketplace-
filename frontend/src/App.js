@@ -3,7 +3,7 @@ import { Contract, ethers } from "ethers";
 import { useEffect, useState } from "react";
 import contractABI from "./contractABI.json";
 
-const contractAddress = '0xaE7dd7a6D90E7dcfB918C10586aC3Fd0B7380FcD';
+const contractAddress = 'your_deployed_contract_address';
 
 function App() {
  
@@ -43,7 +43,7 @@ function App() {
 			});
 	}
  
-
+/*Make sure to change this links to your uploaded images links to Pinata*/
     const data = [
         {
             url: "https://ipfs.io/ipfs/QmaFdAdjpbYUk96n44r6YvnuKFJaa3g6G5UaJC5LVmriBb?filename=bear.png",
