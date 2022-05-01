@@ -1,4 +1,4 @@
-## Metschool Course - Launch your own Epic NFT Marketplace
+## Metaschool Course - Launch your own Epic NFT Marketplace
 
 #### Install the required packages
 ```
