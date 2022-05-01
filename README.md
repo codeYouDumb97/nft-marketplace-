@@ -1,15 +1,23 @@
-# Basic Sample Hardhat Project
+## Metschool Course - Launch your own Epic NFT Marketplace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+#### Install the required packages
 ```
+npm install 
+```
+
+#### Deploy the contract to Rinkeby
+
+```
+npx hardhat run scripts/deploy.js
+```
+
+(Make sure to create a .env file which contains all the keys and API urls)
+
+#### .env file
+```
+PRIVATE_KEY=your_wallet_PRIVATE_KEY_here
+API_URL=your_alchemy_api_url_here
+API_KEY=your_api_key_here
+```
+
+Make sure that you enter the values without any quotes or symbols.
